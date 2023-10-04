@@ -29,7 +29,14 @@ class LoginScreen extends StatelessWidget {
                       child: TextButton(
                           onPressed: () {}, child: forgetpass.text.make())),
                   5.heightBox,
-                  ourButton(),
+                  ourButton(
+                          color: redColor,
+                          title: login,
+                          textColor: whiteColor,
+                          onPress: () {})
+                      .box
+                      .width(context.screenWidth - 50)
+                      .make()
                 ],
               )
                   .box
@@ -38,6 +45,8 @@ class LoginScreen extends StatelessWidget {
                   .padding(EdgeInsets.all(16))
                   .width(context.screenWidth - 70)
                   .make(),
+              5.heightBox,
+              createNewAccount.text.color(fontGrey).make(),
             ],
           ),
         ),
