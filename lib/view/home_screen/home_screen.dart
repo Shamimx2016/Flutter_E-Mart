@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
               color: lightGrey,
               child: TextFormField(
                 decoration: const InputDecoration(
+                  border: InputBorder.none,
                   suffixIcon: Icon(Icons.search),
                   filled: true,
                   fillColor: whiteColor,
