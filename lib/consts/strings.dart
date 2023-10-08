@@ -44,3 +44,9 @@ const sports = "Sports";
 const jewellery = "Jewellery";
 const cellphone = "CellPhone&Tabs";
 const furniture = "Furniture";
+
+const video = "Video",
+    review = "Review",
+    sellerpolicy = "SellerPolicy",
+    returnpolicy = "Return Policy",
+    supportpolicy = "Support Policy";

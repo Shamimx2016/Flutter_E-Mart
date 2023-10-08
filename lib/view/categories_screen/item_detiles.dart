@@ -1,5 +1,6 @@
 import 'package:emart_app/consts/colors.dart';
 import 'package:emart_app/consts/consts.dart';
+import 'package:emart_app/consts/list.dart';
 import 'package:emart_app/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
 
@@ -173,8 +174,40 @@ class ItemDetiles extends StatelessWidget {
                                 .make(),
                           ],
                         ).box.padding(EdgeInsets.all(8)).make(),
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: "description"
+                              .text
+                              .color(darkFontGrey)
+                              .fontFamily(semibold)
+                              .make(),
+                        ),
+                        10.heightBox,
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: "This is a dummay item and description hare.."
+                              .text
+                              .color(darkFontGrey)
+                              .make(),
+                        ),
+                        10.heightBox,
                       ],
                     ).box.white.roundedSM.make(),
+                    10.heightBox,
+                    ListView(
+                      shrinkWrap: true,
+                      children: List.generate(
+                        itemDetailButtonsList.length,
+                        (index) => ListTile(
+                          title: itemDetailButtonsList[index]
+                              .text
+                              .fontFamily(semibold)
+                              .color(darkFontGrey)
+                              .make(),
+                          trailing: Icon(Icons.arrow_forward),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),

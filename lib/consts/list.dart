@@ -51,7 +51,7 @@ const categoriesList = [
   cellphone,
   furniture,
 ];
-const categoriesImg=[
+const categoriesImg = [
   imgFc1,
   imgFc2,
   imgFc3,
@@ -61,5 +61,12 @@ const categoriesImg=[
   imgFc7,
   imgFc8,
   imgFc9,
+];
 
+const itemDetailButtonsList = [
+  video,
+  review,
+  privacyPolicy,
+  returnpolicy,
+  supportpolicy,
 ];
