@@ -70,3 +70,13 @@ const itemDetailButtonsList = [
   returnpolicy,
   supportpolicy,
 ];
+const ProfileButtonList = [
+  orders,
+  wishlist,
+  message,
+];
+const ProfileButtonIcon = [
+  icOrder,
+  icOrder,
+  icMessages,
+];

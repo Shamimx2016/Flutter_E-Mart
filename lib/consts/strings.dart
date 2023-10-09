@@ -49,4 +49,8 @@ const video = "Video",
     review = "Review",
     sellerpolicy = "SellerPolicy",
     returnpolicy = "Return Policy",
-    supportpolicy = "Support Policy";
+    supportpolicy = "Support Policy",
+    productsyoumaylike = "Product you may also like",
+    logout = "Logout";
+
+const wishlist = "My Wishlist", orders = "My Orders", message = "Message";
